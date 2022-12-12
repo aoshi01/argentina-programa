@@ -4,118 +4,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>PortFolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Montserrat:wght@100;300&family=Teko&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="css/style.css".css">
+    <title>Document</title>
+
+
 </head>
 <body>
-    <header>
-        <nav>
-            <div>
-                <img src="icono.png" alt="">
-                
-                <a href=""><img src="" alt="Facebook"></a>
-                <button> Login </button>
-            </div>
-            <div>
-                <img src="" alt="Banner">
-            </div>
-            
+    <header class="menu">
+             
+        <a name="volver"></a>
+        
+        
+        <nav class="nav">
+            <ul class="nav_lista">
+                <li class="nav_item"><a href="#contenido_habilidades">Habilidades</a></li>
+                <li class="nav_item"><a href="#sobre-mi">Sobre mi</a></li>
+                <li class="nav_item">Softskills y pasatiempos</li>
+                <li class="nav_item">Experiencia</li>
+                <li class="nav_item">Contacto</li>
+                <li class="nav_item">Curriculum</li>
+            </ul>
         </nav>
+        <div class="nav_degrade"></div>
+        
     </header>
-    <main>
-        <section>
-            <div> 
-                <img src="yo.png" alt="">
-            </div>
-            <div>
-                <h2>Sobre mi</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum in natus aliquam asperiores? Temporibus accusantium facere reiciendis obcaecati! Odit, ut reprehenderit. Ex unde fuga est necessitatibus reprehenderit? Iure, cumque non.
-                    Saepe, ullam laudantium itaque neque corporis nobis sapiente tempora recusandae repudiandae aut aperiam obcaecati atque in repellendus molestias labore expedita ipsa. Neque sit architecto ex distinctio beatae cupiditate, dignissimos aliquam.
-                    Necessitatibus, provident maxime enim velit mollitia iure quasi iusto esse nihil sit ea assumenda rem et sunt nostrum rerum. Placeat voluptatem facilis culpa corrupti mollitia voluptatibus magnam explicabo. Et, voluptatibus!
-                    Doloremque, dolor. Tempora culpa, ut illo, nostrum fuga assumenda fugiat aperiam doloribus dolore velit ad recusandae modi? Maiores, mollitia. Eveniet cupiditate quos, nesciunt aperiam cumque itaque vel dolor impedit quod?
-                    Eveniet quidem laborum voluptates ea rerum rem dolor quod recusandae omnis nobis, dolores, commodi sit. Deserunt, aperiam dolorem hic quis id suscipit mollitia placeat, explicabo ut, aspernatur voluptates aliquid consectetur!</p>
-            </div>    
+    <main class="contenido">
+        <section class="contenido_presentacion">
+            <div class="contenido_presentacion__texto">
+                <h1 class="contenido_presentacion__titulo">Portfolio</h1>
+                <h2 class="contenido_presentacion__nombre">Leandro Rodriguez</h2>
+             </div>
+        <img class="contenido_presentacion__imagen" src="./Leandro.jpg" alt="">
+        </section>
+        <div class="grad1"></div>
+        <a name="contenido_habilidades"></a>
+
+        <section class="contenido_habilidades">
+            
+            <div class="contenido_habilidades__texto">
+               <h1 class="contenido_habilidades__titulo">Habilidades</h1>
+                
+           </div>
+           <div class="contenido_habilidades__li">
+            <ul class="contenido_habilidades__lista">
+                <li class="contenido_habilidades__item">Programacion Front End jr</li>
+                <li class="contenido_habilidades__item">Manejo de JavaScript jr</li>
+                <li class="contenido_habilidades__item">Manejo de Herramientas Agiles</li>
+                <li class="contenido_habilidades__item">Manejo de Programas de edicion grafica</li>
+                <li class="contenido_habilidades__item">Ingles</li>
+             </ul>
+           </div>
         </section>
 
-        <section>
-            <div>
-                  <h2>Experiencia Laboral</h2>
+        <button class="btn_inicio"><a href="#volver">Inicio</a></button>
+        <div class="separador"></div>
+        <section class="lenguajes">
+            <div class="iconos">
+                <td class="iconos_td">
+                    <tr class="iconos_imagenes"><img src="./img/css.png" alt=""></tr>
+                    <tr class="iconos_imagenes"><img src="./img/html.png" alt=""></tr>
+                    <tr class="iconos_imagenes"><img src="./img/java.png" alt=""></tr>
+                    <tr class="iconos_imagenes"><img src="./img/js.png" alt=""></tr>
+                </td>
+               </div>
+        </section>
+
+        <div class="separador"></div>
+        <section class="contenido_bio">
+            <a name="sobre-mi"></a>  
+            <div class="contenido_bio__imagen">
+                <img class="c_bio__imagen___item"src="E:\desc\1828-layouts-responsivos-0eb5f677738d89e78d46e29b624c5599b55eac5c\proyecto porfolio\img\—Pngtree—barcode_5054139.png" alt="">
+            </div>
+            <div class="contenido_bio__texto">
+                <h1 class="c_bio__texto___titulo"><em>Sobre mi</em></h1>
+                <p class="c_bio__texto___cuerpo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, inventore! Molestias nihil minus et magnam molestiae alias magni unde cum ullam accusamus minima eum sit sed provident, aperiam quidem eveniet?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, incidunt vel? Magni aspernatur est voluptatibus commodi veritatis quas veniam modi ipsam officia, sed reprehenderit. Ea rem quaerat perspiciatis doloribus sequi!lore</p>
+            </div>  
+            
+        </section>
+      
+        <section class="contenido_sofskills">
+            <div class="c_sofskills__titulo">
+                 <h1 class="contenido_sofskills__titulo">Softskills</h1>
             </div>
             
-            <div>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>Atencion al publico</td>
-                            <td>Centro Medico Doctor Davila</td>
-                        </tr>
-                        <tr>
-                            <td>Cocinero y Pastero</td>
-                            <td>Casa Veccia</td>
-                        </tr>
-                        <tr>
-                            <td>Cocinero y pizzero</td>
-                            <td>The temple Bar</td>
-                        </tr>
-                        
-                    </tbody>
-                </table>
-            
-        </section>
-        <section>
-            <h1>Educacion</h1>
-            <table>
-                <tr>
-                    <td>Secundario completo</td>
-                    <td>I.V.A</td>
-                </tr>
-
+            <div class="contenido_sofskills__ejemplo">
                 
-                <tr>
-                    <td>Cocinero Profesional con Gerenciamiento gastronomico</td>
-                    <td>Escuela de Cocineros Gato Dumas</td>
-                </tr>
-
-                <tr>
-                    <td>Argentina Programa</td>
-                </tr>
-            </table>
-        </section>
-
-        <section>
-            <div>
-                <h2>Hard y SoftSkills</h2>
-                <div>
-                    <h3>Hard Skills</h3>
-                    <ul>
-                        <li>Cocina Profesional</li>
-                        <li>Html</li>
-                        <li>CSS</li>
-                        <li>PYTHON</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Soft Skills</h3>
-                    <ul>
-                        <li>Capacidad de adaptacion</li>
-                        <li>Perseverancia y resilencia</li>
-                        <li>Capacidades de Liderazgo</li>
-                        <li>Dedicado.</li>
-                    </ul>
-                </div>
-                
+                <ul class="contenido_sofskills__lista">
+                    <li class="contenido_sofskills__item">Metodologias Agiles</li>
+                    <li class="contenido_sofskills__item">Capacidad de adaptacion</li>
+                    <li class="contenido_sofskills__item">Comprencion y escucha activa</li>
+                    <li class="contenido_sofskills__item">Trabajo en equipo</li>
+                    <li class="contenido_sofskills__item">Liderazgo</li>
+                </ul>
             </div>
-        </section>
+            
+            <div class="contenido_otras_pasiones">
+                
+            <div class="c_otras__pasiones___titulo">
+                <h1>Otras Pasiones</h1>
+            </div>
+            <div class="c_otras__pasiones___lista">
+                <ul>
+                    <li class="c_o__pasiones___item">Ilustracion Digital</li>
+                    <li class="c_o__pasiones___item">Cocina</li>
+                    <li class="c_o__pasiones___item">Gaming</li>
+                    <li class="c_o__pasiones___item">Ciencia ficcion y Fantasia</li>
+                                        
+                </ul>
+            </div>
 
+            </div>
+
+         
+        </section>
         <section>
-            <h2>Proyectos</h2>
+            <h1>Experiencia</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eius similique suscipit nesciunt dolor, impedit soluta minus et adipisci in commodi unde. Blanditiis ab sequi illo exercitationem incidunt laudantium rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vero ad perspiciatis a exercitationem illum. Nemo rerum consectetur iure facilis, alias quo. Enim numquam sit libero animi error aut officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nulla reprehenderit esse sed. Iste, obcaecati ducimus similique pariatur numquam cum perferendis laboriosam unde dolorem doloribus ab, molestias asperiores maiores nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellat laudantium iusto corporis natus numquam facilis eveniet iure voluptatibus nihil. Ratione laborum iusto deleniti? Illo aliquid optio possimus culpa eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, et eaque. Earum doloribus deleniti suscipit labore consectetur, eius a quaerat ipsum eaque ab non adipisci ut iste perspiciatis id commodi.</p>
+        </section>
+        <section>
+            <h1>Contacto</h1>
+            <div>
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" placeholder="ingrese Nombre" class="nombre">
+                <label for="mail"> Correo Electronico</label>
+                <input type="email" name="correo" id="Mail" placeholder="hola@hola.com">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="Mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingrese Mensaje"></textarea>
+                <button>Enviar Mensaje</button>
+            </div>
 
         </section>
-
+        <section>
+            <h1>Curriculum Vitae</h1>
+            <a href="https://docs.google.com/document/d/12U_bj7aUliM1XvQz1Fy10wQdO5aIk4W3Qvo3YNxKZWQ/edit?usp=sharing">Descarga el C.V</a>
+        </section>
     </main>
     <footer>
+        <span>Todos los Derechos Reservados.</span>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>
